@@ -68,7 +68,6 @@ button{
   font-size: 1.6rem;
   display: flex;
   justify-content: center;
-
   gap: 20px;
   text-align: center;
 }
@@ -89,4 +88,27 @@ small{
 small.erro{
   display: block;
   color: #e54;
+}
+
+@media(max-width: 768px){
+  .form{
+    width: 85%;
+  }
+
+  button{
+    padding: 20px;
+  }
+
+  input{
+    padding: 15px;
+    font-size: 1.5rem;
+  }
+
+  .icons-conta{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+  }
 }
